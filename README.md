@@ -1,7 +1,6 @@
 # rube-go-berg
 
-A small [Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine
-) to get acquainted with Go and experiment with GitHub Webhooks and play with a neglected Raspberry Pi. The idea is to show some sort of indicator, in addition to the small red 'x' in the Github UI, when an app's build fails.
+A small [Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine) to get acquainted with Go, experiment with GitHub Webhooks and play with a neglected Raspberry Pi. The idea is to show some sort of indicator, in addition to the small red 'x' in the Github UI, when an app's build fails.
 
 I'm using a raspberry pi and an awful-sounding buzzer.
 
