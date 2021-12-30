@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rube-go-bergs</title>
+</head>
+<body>
+  <h1>Rube Go Berg Machine</h1>
+  <button style="margin-bottom: 1rem;" id="test-buzzer">Test Buzzer</button>
+  <div>
+    <img style="max-height: 50vh;width: auto;" src="/pi.png" />
+  </div>
+  <script>
+    const btn = document.getElementById('test-buzzer')
+    btn.addEventListener('click', function() {
+      fetch("/test")
+    })
+  </script>
+</body>
+</html>
